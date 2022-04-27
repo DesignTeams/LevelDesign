@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: ee672c54b1edd43429d0b2fcea32ae65
+timeCreated: 1476092678
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Cylinder001
+    100004: doorFront
+    100006: doorHandle
+    100008: doorKey
+    100010: doorLock
+    100012: //RootNode
+    100014: wallDoor
+    100016: wallPillar
+    100018: wallPillarCorner
+    100020: wallPlain
+    100022: wallWindow
+    100024: WindowFrame
+    100026: windowGlass
+    100028: doorHinges
+    400000: Box001
+    400002: Cylinder001
+    400004: doorFront
+    400006: doorHandle
+    400008: doorKey
+    400010: doorLock
+    400012: //RootNode
+    400014: wallDoor
+    400016: wallPillar
+    400018: wallPillarCorner
+    400020: wallPlain
+    400022: wallWindow
+    400024: WindowFrame
+    400026: windowGlass
+    400028: doorHinges
+    2300000: Box001
+    2300002: Cylinder001
+    2300004: doorFront
+    2300006: doorHandle
+    2300008: doorKey
+    2300010: doorLock
+    2300012: wallDoor
+    2300014: wallPillar
+    2300016: wallPillarCorner
+    2300018: wallPlain
+    2300020: wallWindow
+    2300022: WindowFrame
+    2300024: windowGlass
+    2300026: doorHinges
+    3300000: Box001
+    3300002: Cylinder001
+    3300004: doorFront
+    3300006: doorHandle
+    3300008: doorKey
+    3300010: doorLock
+    3300012: wallDoor
+    3300014: wallPillar
+    3300016: wallPillarCorner
+    3300018: wallPlain
+    3300020: wallWindow
+    3300022: WindowFrame
+    3300024: windowGlass
+    3300026: doorHinges
+    4300000: wallPlain
+    4300002: wallPillar
+    4300004: wallPillarCorner
+    4300006: wallDoor
+    4300008: doorFront
+    4300010: Cylinder001
+    4300012: doorHandle
+    4300014: doorLock
+    4300016: Box001
+    4300018: doorKey
+    4300020: wallWindow
+    4300022: WindowFrame
+    4300024: windowGlass
+    4300026: doorHinges
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

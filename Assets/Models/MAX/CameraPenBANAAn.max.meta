@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: af2e682d7b38e1547a4acb988e0d6df3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: cameraBody
+    100002: cameraButton
+    100004: cameraLens
+    100006: //RootNode
+    100008: cameraPhotopack
+    100010: cup
+    100012: geigercounterBody
+    100014: geigercounterButtonOne
+    100016: geigercounterButtonTwo
+    100018: geigercounterDisplayFrame
+    100020: geigercounterPointer
+    100022: geigercounterPointerBase
+    100024: geigercounterSensor
+    100026: glass
+    100028: mobilephoneBottom
+    100030: mobilephoneCord
+    100032: mobilephoneRadialbutton
+    100034: mobilephoneScreen
+    100036: mobilephoneTop
+    100038: mug
+    100040: penBody
+    100042: penTip
+    400000: cameraBody
+    400002: cameraButton
+    400004: cameraLens
+    400006: //RootNode
+    400008: cameraPhotopack
+    400010: cup
+    400012: geigercounterBody
+    400014: geigercounterButtonOne
+    400016: geigercounterButtonTwo
+    400018: geigercounterDisplayFrame
+    400020: geigercounterPointer
+    400022: geigercounterPointerBase
+    400024: geigercounterSensor
+    400026: glass
+    400028: mobilephoneBottom
+    400030: mobilephoneCord
+    400032: mobilephoneRadialbutton
+    400034: mobilephoneScreen
+    400036: mobilephoneTop
+    400038: mug
+    400040: penBody
+    400042: penTip
+    2300000: cameraBody
+    2300002: cameraButton
+    2300004: cameraLens
+    2300006: cameraPhotopack
+    2300008: cup
+    2300010: geigercounterBody
+    2300012: geigercounterButtonOne
+    2300014: geigercounterButtonTwo
+    2300016: geigercounterDisplayFrame
+    2300018: geigercounterPointer
+    2300020: geigercounterPointerBase
+    2300022: geigercounterSensor
+    2300024: glass
+    2300026: mobilephoneBottom
+    2300028: mobilephoneCord
+    2300030: mobilephoneRadialbutton
+    2300032: mobilephoneScreen
+    2300034: mobilephoneTop
+    2300036: mug
+    2300038: penBody
+    2300040: penTip
+    3300000: cameraBody
+    3300002: cameraButton
+    3300004: cameraLens
+    3300006: cameraPhotopack
+    3300008: cup
+    3300010: geigercounterBody
+    3300012: geigercounterButtonOne
+    3300014: geigercounterButtonTwo
+    3300016: geigercounterDisplayFrame
+    3300018: geigercounterPointer
+    3300020: geigercounterPointerBase
+    3300022: geigercounterSensor
+    3300024: glass
+    3300026: mobilephoneBottom
+    3300028: mobilephoneCord
+    3300030: mobilephoneRadialbutton
+    3300032: mobilephoneScreen
+    3300034: mobilephoneTop
+    3300036: mug
+    3300038: penBody
+    3300040: penTip
+    4300000: cameraBody
+    4300002: cameraButton
+    4300004: cameraLens
+    4300006: cameraPhotopack
+    4300008: mobilephoneBottom
+    4300010: mobilephoneCord
+    4300012: mobilephoneTop
+    4300014: mobilephoneScreen
+    4300016: mobilephoneRadialbutton
+    4300018: geigercounterBody
+    4300020: geigercounterButtonOne
+    4300022: geigercounterButtonTwo
+    4300024: geigercounterDisplayFrame
+    4300026: geigercounterPointerBase
+    4300028: geigercounterPointer
+    4300030: geigercounterSensor
+    4300032: cup
+    4300034: mug
+    4300036: glass
+    4300038: penBody
+    4300040: penTip
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

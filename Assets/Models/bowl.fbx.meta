@@ -1,81 +1,299 @@
 fileFormatVersion: 2
-guid: 8603cb379f0ab444492629dc6d6750e1
+guid: 61ecdc001103ea1478dd59b13231f4c7
+timeCreated: 1487339451
+licenseType: Free
 ModelImporter:
-  serializedVersion: 21100
-  internalIDToNameTable: []
-  externalObjects: {}
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder_1
+    100004: Cylinder_1_10
+    100006: Cylinder_1_11
+    100008: Cylinder_1_12
+    100010: Cylinder_1_13
+    100012: Cylinder_1_14
+    100014: Cylinder_1_15
+    100016: Cylinder_1_16
+    100018: Cylinder_1_17
+    100020: Cylinder_1_18
+    100022: Cylinder_1_19
+    100024: Cylinder_1_2
+    100026: Cylinder_1_20
+    100028: Cylinder_1_3
+    100030: Cylinder_1_4
+    100032: Cylinder_1_5
+    100034: Cylinder_1_6
+    100036: Cylinder_1_7
+    100038: Cylinder_1_8
+    100040: Cylinder_1_9
+    100042: Cylinder_2
+    100044: Cylinder_2_10
+    100046: Cylinder_2_11
+    100048: Cylinder_2_12
+    100050: Cylinder_2_13
+    100052: Cylinder_2_14
+    100054: Cylinder_2_15
+    100056: Cylinder_2_16
+    100058: Cylinder_2_17
+    100060: Cylinder_2_18
+    100062: Cylinder_2_19
+    100064: Cylinder_2_2
+    100066: Cylinder_2_20
+    100068: Cylinder_2_3
+    100070: Cylinder_2_4
+    100072: Cylinder_2_5
+    100074: Cylinder_2_6
+    100076: Cylinder_2_7
+    100078: Cylinder_2_8
+    100080: Cylinder_2_9
+    100082: Null_1
+    100084: Null_10
+    100086: Null_11
+    100088: Null_12
+    100090: Null_13
+    100092: Null_14
+    100094: Null_15
+    100096: Null_16
+    100098: Null_17
+    100100: Null_18
+    100102: Null_19
+    100104: Null_2
+    100106: Null_20
+    100108: Null_3
+    100110: Null_4
+    100112: Null_5
+    100114: Null_6
+    100116: Null_7
+    100118: Null_8
+    100120: Null_9
+    400000: //RootNode
+    400002: Cylinder_1
+    400004: Cylinder_1_10
+    400006: Cylinder_1_11
+    400008: Cylinder_1_12
+    400010: Cylinder_1_13
+    400012: Cylinder_1_14
+    400014: Cylinder_1_15
+    400016: Cylinder_1_16
+    400018: Cylinder_1_17
+    400020: Cylinder_1_18
+    400022: Cylinder_1_19
+    400024: Cylinder_1_2
+    400026: Cylinder_1_20
+    400028: Cylinder_1_3
+    400030: Cylinder_1_4
+    400032: Cylinder_1_5
+    400034: Cylinder_1_6
+    400036: Cylinder_1_7
+    400038: Cylinder_1_8
+    400040: Cylinder_1_9
+    400042: Cylinder_2
+    400044: Cylinder_2_10
+    400046: Cylinder_2_11
+    400048: Cylinder_2_12
+    400050: Cylinder_2_13
+    400052: Cylinder_2_14
+    400054: Cylinder_2_15
+    400056: Cylinder_2_16
+    400058: Cylinder_2_17
+    400060: Cylinder_2_18
+    400062: Cylinder_2_19
+    400064: Cylinder_2_2
+    400066: Cylinder_2_20
+    400068: Cylinder_2_3
+    400070: Cylinder_2_4
+    400072: Cylinder_2_5
+    400074: Cylinder_2_6
+    400076: Cylinder_2_7
+    400078: Cylinder_2_8
+    400080: Cylinder_2_9
+    400082: Null_1
+    400084: Null_10
+    400086: Null_11
+    400088: Null_12
+    400090: Null_13
+    400092: Null_14
+    400094: Null_15
+    400096: Null_16
+    400098: Null_17
+    400100: Null_18
+    400102: Null_19
+    400104: Null_2
+    400106: Null_20
+    400108: Null_3
+    400110: Null_4
+    400112: Null_5
+    400114: Null_6
+    400116: Null_7
+    400118: Null_8
+    400120: Null_9
+    2300000: Cylinder_1
+    2300002: Cylinder_1_10
+    2300004: Cylinder_1_11
+    2300006: Cylinder_1_12
+    2300008: Cylinder_1_13
+    2300010: Cylinder_1_14
+    2300012: Cylinder_1_15
+    2300014: Cylinder_1_16
+    2300016: Cylinder_1_17
+    2300018: Cylinder_1_18
+    2300020: Cylinder_1_19
+    2300022: Cylinder_1_2
+    2300024: Cylinder_1_20
+    2300026: Cylinder_1_3
+    2300028: Cylinder_1_4
+    2300030: Cylinder_1_5
+    2300032: Cylinder_1_6
+    2300034: Cylinder_1_7
+    2300036: Cylinder_1_8
+    2300038: Cylinder_1_9
+    2300040: Cylinder_2
+    2300042: Cylinder_2_10
+    2300044: Cylinder_2_11
+    2300046: Cylinder_2_12
+    2300048: Cylinder_2_13
+    2300050: Cylinder_2_14
+    2300052: Cylinder_2_15
+    2300054: Cylinder_2_16
+    2300056: Cylinder_2_17
+    2300058: Cylinder_2_18
+    2300060: Cylinder_2_19
+    2300062: Cylinder_2_2
+    2300064: Cylinder_2_20
+    2300066: Cylinder_2_3
+    2300068: Cylinder_2_4
+    2300070: Cylinder_2_5
+    2300072: Cylinder_2_6
+    2300074: Cylinder_2_7
+    2300076: Cylinder_2_8
+    2300078: Cylinder_2_9
+    3300000: Cylinder_1
+    3300002: Cylinder_1_10
+    3300004: Cylinder_1_11
+    3300006: Cylinder_1_12
+    3300008: Cylinder_1_13
+    3300010: Cylinder_1_14
+    3300012: Cylinder_1_15
+    3300014: Cylinder_1_16
+    3300016: Cylinder_1_17
+    3300018: Cylinder_1_18
+    3300020: Cylinder_1_19
+    3300022: Cylinder_1_2
+    3300024: Cylinder_1_20
+    3300026: Cylinder_1_3
+    3300028: Cylinder_1_4
+    3300030: Cylinder_1_5
+    3300032: Cylinder_1_6
+    3300034: Cylinder_1_7
+    3300036: Cylinder_1_8
+    3300038: Cylinder_1_9
+    3300040: Cylinder_2
+    3300042: Cylinder_2_10
+    3300044: Cylinder_2_11
+    3300046: Cylinder_2_12
+    3300048: Cylinder_2_13
+    3300050: Cylinder_2_14
+    3300052: Cylinder_2_15
+    3300054: Cylinder_2_16
+    3300056: Cylinder_2_17
+    3300058: Cylinder_2_18
+    3300060: Cylinder_2_19
+    3300062: Cylinder_2_2
+    3300064: Cylinder_2_20
+    3300066: Cylinder_2_3
+    3300068: Cylinder_2_4
+    3300070: Cylinder_2_5
+    3300072: Cylinder_2_6
+    3300074: Cylinder_2_7
+    3300076: Cylinder_2_8
+    3300078: Cylinder_2_9
+    4300000: Cylinder_1
+    4300002: Cylinder_2
+    4300004: Cylinder_1_2
+    4300006: Cylinder_2_2
+    4300008: Cylinder_1_3
+    4300010: Cylinder_2_3
+    4300012: Cylinder_1_4
+    4300014: Cylinder_2_4
+    4300016: Cylinder_1_5
+    4300018: Cylinder_2_5
+    4300020: Cylinder_1_6
+    4300022: Cylinder_2_6
+    4300024: Cylinder_1_7
+    4300026: Cylinder_2_7
+    4300028: Cylinder_1_8
+    4300030: Cylinder_2_8
+    4300032: Cylinder_1_9
+    4300034: Cylinder_2_9
+    4300036: Cylinder_1_10
+    4300038: Cylinder_2_10
+    4300040: Cylinder_1_11
+    4300042: Cylinder_2_11
+    4300044: Cylinder_1_12
+    4300046: Cylinder_2_12
+    4300048: Cylinder_1_13
+    4300050: Cylinder_2_13
+    4300052: Cylinder_1_14
+    4300054: Cylinder_2_14
+    4300056: Cylinder_1_15
+    4300058: Cylinder_2_15
+    4300060: Cylinder_1_16
+    4300062: Cylinder_2_16
+    4300064: Cylinder_1_17
+    4300066: Cylinder_2_17
+    4300068: Cylinder_1_18
+    4300070: Cylinder_2_18
+    4300072: Cylinder_1_19
+    4300074: Cylinder_2_19
+    4300076: Cylinder_1_20
+    4300078: Cylinder_2_20
   materials:
-    materialImportMode: 2
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -85,17 +303,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
-  avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

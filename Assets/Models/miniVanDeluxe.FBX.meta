@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 318c3a774cbee4f49a3f17e9720e0e53
+timeCreated: 1481282111
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box003
+    100004: Cylinder001
+    100006: erw
+    100008: kastje
+    100010: minivanClock
+    100012: //RootNode
+    100014: minivanPoke
+    100016: Rood
+    100018: steeringwheel
+    100020: alarmLight
+    100022: doorLeft
+    100024: doorRight
+    100026: flatbed
+    100028: rearMirror
+    100030: seats
+    100032: doorRight001
+    100034: Object001
+    100036: Roof
+    400000: Box001
+    400002: Box003
+    400004: Cylinder001
+    400006: erw
+    400008: kastje
+    400010: minivanClock
+    400012: //RootNode
+    400014: minivanPoke
+    400016: Rood
+    400018: steeringwheel
+    400020: alarmLight
+    400022: doorLeft
+    400024: doorRight
+    400026: flatbed
+    400028: rearMirror
+    400030: seats
+    400032: doorRight001
+    400034: Object001
+    400036: Roof
+    2300000: Box001
+    2300002: Box003
+    2300004: Cylinder001
+    2300006: erw
+    2300008: kastje
+    2300010: minivanClock
+    2300012: minivanPoke
+    2300014: Rood
+    2300016: steeringwheel
+    2300018: alarmLight
+    2300020: doorLeft
+    2300022: doorRight
+    2300024: flatbed
+    2300026: rearMirror
+    2300028: seats
+    2300030: doorRight001
+    2300032: //RootNode
+    2300034: Object001
+    2300036: Roof
+    3300000: Box001
+    3300002: Box003
+    3300004: Cylinder001
+    3300006: erw
+    3300008: kastje
+    3300010: minivanClock
+    3300012: minivanPoke
+    3300014: Rood
+    3300016: steeringwheel
+    3300018: alarmLight
+    3300020: doorLeft
+    3300022: doorRight
+    3300024: flatbed
+    3300026: rearMirror
+    3300028: seats
+    3300030: doorRight001
+    3300032: //RootNode
+    3300034: Object001
+    3300036: Roof
+    4300000: erw
+    4300002: minivanClock
+    4300004: minivanPoke
+    4300006: steeringwheel
+    4300008: Box001
+    4300010: Cylinder001
+    4300012: kastje
+    4300014: Box003
+    4300016: Rood
+    4300018: flatbed
+    4300020: doorLeft
+    4300022: doorRight
+    4300024: alarmLight
+    4300026: rearMirror
+    4300028: seats
+    4300030: doorRight001
+    4300032: Object001
+    4300034: Roof
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

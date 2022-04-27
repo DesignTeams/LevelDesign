@@ -1,81 +1,202 @@
 fileFormatVersion: 2
-guid: b55c1a204ffb2f345b53fd20aaada7fe
+guid: 326dd377f95454342a01defb64370775
+timeCreated: 1487686627
+licenseType: Free
 ModelImporter:
-  serializedVersion: 21100
-  internalIDToNameTable: []
-  externalObjects: {}
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Array
+    100002: Array_1
+    100004: Array_2
+    100006: //RootNode
+    100008: Cylinder
+    100010: Torus
+    100012: Tube
+    100014: Tube_1
+    100016: Tube_10
+    100018: Tube_10_2
+    100020: Tube_11
+    100022: Tube_11_2
+    100024: Tube_12
+    100026: Tube_12_2
+    100028: Tube_1_2
+    100030: Tube_1_3
+    100032: Tube_2
+    100034: Tube_2_2
+    100036: Tube_3
+    100038: Tube_3_2
+    100040: Tube_4
+    100042: Tube_4_2
+    100044: Tube_5
+    100046: Tube_5_2
+    100048: Tube_6
+    100050: Tube_6_2
+    100052: Tube_7
+    100054: Tube_7_2
+    100056: Tube_8
+    100058: Tube_8_2
+    100060: Tube_9
+    100062: Tube_9_2
+    400000: Array
+    400002: Array_1
+    400004: Array_2
+    400006: //RootNode
+    400008: Cylinder
+    400010: Torus
+    400012: Tube
+    400014: Tube_1
+    400016: Tube_10
+    400018: Tube_10_2
+    400020: Tube_11
+    400022: Tube_11_2
+    400024: Tube_12
+    400026: Tube_12_2
+    400028: Tube_1_2
+    400030: Tube_1_3
+    400032: Tube_2
+    400034: Tube_2_2
+    400036: Tube_3
+    400038: Tube_3_2
+    400040: Tube_4
+    400042: Tube_4_2
+    400044: Tube_5
+    400046: Tube_5_2
+    400048: Tube_6
+    400050: Tube_6_2
+    400052: Tube_7
+    400054: Tube_7_2
+    400056: Tube_8
+    400058: Tube_8_2
+    400060: Tube_9
+    400062: Tube_9_2
+    2300000: Cylinder
+    2300002: Torus
+    2300004: Tube
+    2300006: Tube_10
+    2300008: Tube_10_2
+    2300010: Tube_11
+    2300012: Tube_11_2
+    2300014: Tube_12
+    2300016: Tube_12_2
+    2300018: Tube_1_2
+    2300020: Tube_1_3
+    2300022: Tube_2
+    2300024: Tube_2_2
+    2300026: Tube_3
+    2300028: Tube_3_2
+    2300030: Tube_4
+    2300032: Tube_4_2
+    2300034: Tube_5
+    2300036: Tube_5_2
+    2300038: Tube_6
+    2300040: Tube_6_2
+    2300042: Tube_7
+    2300044: Tube_7_2
+    2300046: Tube_8
+    2300048: Tube_8_2
+    2300050: Tube_9
+    2300052: Tube_9_2
+    3300000: Cylinder
+    3300002: Torus
+    3300004: Tube
+    3300006: Tube_10
+    3300008: Tube_10_2
+    3300010: Tube_11
+    3300012: Tube_11_2
+    3300014: Tube_12
+    3300016: Tube_12_2
+    3300018: Tube_1_2
+    3300020: Tube_1_3
+    3300022: Tube_2
+    3300024: Tube_2_2
+    3300026: Tube_3
+    3300028: Tube_3_2
+    3300030: Tube_4
+    3300032: Tube_4_2
+    3300034: Tube_5
+    3300036: Tube_5_2
+    3300038: Tube_6
+    3300040: Tube_6_2
+    3300042: Tube_7
+    3300044: Tube_7_2
+    3300046: Tube_8
+    3300048: Tube_8_2
+    3300050: Tube_9
+    3300052: Tube_9_2
+    4300000: Torus
+    4300002: Cylinder
+    4300004: Tube
+    4300006: Tube_12
+    4300008: Tube_11
+    4300010: Tube_10
+    4300012: Tube_9
+    4300014: Tube_8
+    4300016: Tube_7
+    4300018: Tube_6
+    4300020: Tube_5
+    4300022: Tube_4
+    4300024: Tube_3
+    4300026: Tube_2
+    4300028: Tube_1_2
+    4300030: Tube_12_2
+    4300032: Tube_11_2
+    4300034: Tube_10_2
+    4300036: Tube_9_2
+    4300038: Tube_8_2
+    4300040: Tube_7_2
+    4300042: Tube_6_2
+    4300044: Tube_5_2
+    4300046: Tube_4_2
+    4300048: Tube_3_2
+    4300050: Tube_2_2
+    4300052: Tube_1_3
   materials:
-    materialImportMode: 2
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -85,17 +206,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
-  avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
