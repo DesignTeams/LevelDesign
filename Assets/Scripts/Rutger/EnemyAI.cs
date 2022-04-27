@@ -7,6 +7,7 @@ public class EnemyAI : MonoBehaviour
 {
     public NavMeshAgent agent;
     public GameObject player;
+    public GameObject deadUI;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,15 @@ public class EnemyAI : MonoBehaviour
         {
             agent.destination = player.transform.position;
             yield return new WaitForSeconds(1);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.GetComponent<ThirdPersonMovement>() != null)
+        {
+            other.GetComponent<ThirdPersonMovement>().Kill();
+            deadUI.SetActive(true);
         }
     }
 }

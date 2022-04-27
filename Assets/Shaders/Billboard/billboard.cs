@@ -3,6 +3,7 @@ using System.Collections;
 
 public class billboard : MonoBehaviour
 {
+    CamManager camManager;
 
 	void Start ()
     {
@@ -10,6 +11,7 @@ public class billboard : MonoBehaviour
         {
             cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Transform>();
         }
+        camManager = FindObjectOfType<CamManager>();
     }
 
     public static Transform cam;
@@ -18,7 +20,14 @@ public class billboard : MonoBehaviour
 
     void LateUpdate()
     {
-        this.transform.LookAt(billboard.cam);
+        try
+        {
+            this.transform.LookAt(camManager.currentCam.transform);
+        }
+        catch
+        {
+
+        }
         transform.Rotate(0, 180, 0);
         eangles = transform.eulerAngles;
         eangles.x *= freeRotation.x;

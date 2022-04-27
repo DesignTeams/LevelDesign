@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4061e64d3eb4f8348bf76f0b26c2d210
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 12
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Charybdis
+  fontNames:
+  - Charybdis
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 771384659737821478fcae56f128b53d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

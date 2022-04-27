@@ -155,8 +155,9 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             Gravity();
             BasicMovement();
+            MouseRot();
         }
-        MouseRot();
+        
     }
 
     void HostLeft()
@@ -388,6 +389,12 @@ public class ThirdPersonMovement : MonoBehaviour
 
         velocity.y = jumpHeight;
         jumpBufferCounter = 0;
+    }
+
+    public void Kill()
+    {
+        anim.SetBool("Dead", true);
+        Freeze();
     }
 
     public void Move(InputAction.CallbackContext context)
