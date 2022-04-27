@@ -67,7 +67,7 @@ Shader "psx/trasparent/unlit" {
 		//Cut out polygons
 		if (distance > unity_FogStart.z + unity_FogColor.a * 255)
 		{
-			o.pos.w = 0;
+			//o.pos.w = 0;
 		}
 
 
