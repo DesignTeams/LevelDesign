@@ -23,6 +23,7 @@ public class CameraTrigger : MonoBehaviour
         if(other.GetComponent<ThirdPersonMovement>() != null)
         {
             cam.SetActive(true);
+            camManager.AddCamera(cam);
         }
     }
     private void OnTriggerExit(Collider other)
@@ -30,11 +31,7 @@ public class CameraTrigger : MonoBehaviour
         if (other.GetComponent<ThirdPersonMovement>() != null)
         {
             cam.SetActive(false);
+            camManager.RemoveCamera(cam);
         }
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        camManager.currentCam = cam;
     }
 }

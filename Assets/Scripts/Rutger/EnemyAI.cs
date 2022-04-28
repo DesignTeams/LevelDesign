@@ -8,6 +8,9 @@ public class EnemyAI : MonoBehaviour
     public NavMeshAgent agent;
     public GameObject player;
     public GameObject deadUI;
+    public float minSpeed = 1;
+    public float maxSpeed = 4;
+    public AnimationCurve speedCurve;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +22,7 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         transform.LookAt(player.transform);
+        agent.speed = Mathf.Clamp(speedCurve.Evaluate(Vector3.Distance(transform.position, player.transform.position)), minSpeed, maxSpeed);
     }
 
     IEnumerator UpdateTarget()

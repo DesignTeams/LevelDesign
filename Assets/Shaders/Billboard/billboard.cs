@@ -22,7 +22,7 @@ public class billboard : MonoBehaviour
     {
         try
         {
-            this.transform.LookAt(camManager.currentCam.transform);
+            this.transform.LookAt(camManager.GetCurrentCam().transform);
         }
         catch
         {
