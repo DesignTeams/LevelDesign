@@ -24,6 +24,7 @@ public class PlayerInteractionManager : MonoBehaviour
         {
             item.PickUp();
         }
+        items.Clear();
     }
 
     private void OnTriggerEnter(Collider other)
