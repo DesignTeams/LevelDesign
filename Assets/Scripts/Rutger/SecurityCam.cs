@@ -14,6 +14,6 @@ public class SecurityCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.LookAt(player.transform);
+        transform.LookAt(player.transform.position + Vector3.up);
     }
 }
