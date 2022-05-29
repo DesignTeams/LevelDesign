@@ -2611,17 +2611,6 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
---- !u!114 &386962724 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3773454529125211718, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-  m_PrefabInstance: {fileID: 1872992035}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56b0fa33d62f2c5478b82dda5c34dae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &394918097
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,11 +3335,6 @@ Transform:
 --- !u!1 &530256295 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5971447650226935390, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-  m_PrefabInstance: {fileID: 1872992035}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &530256297 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5971447650217584030, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
   m_PrefabInstance: {fileID: 1872992035}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &539791614
@@ -7990,126 +7974,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 52421513257315283, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_Radius
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 52421513257315283, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_Center.y
-      value: -0.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 252750017721077780, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 836731129880229662, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_Volume
-      value: 0.082
-      objectReference: {fileID: 0}
-    - target: {fileID: 836731129880229662, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 836731129880229662, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 2b6aeceb66e7926419d3635f63d6da52, type: 3}
-    - target: {fileID: 836731129880229662, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: -7041053850001998898, guid: dd5479c7b0901ca4f98f51baa20cd57b, type: 2}
-    - target: {fileID: 1446842205348459959, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_ActionEvents.Array.data[16].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1446842205348459959, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 386962724}
-    - target: {fileID: 1446842205348459959, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 386962724}
-    - target: {fileID: 1446842205348459959, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_ActionEvents.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 386962724}
-    - target: {fileID: 1446842205348459959, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Move
-      objectReference: {fileID: 0}
-    - target: {fileID: 1446842205348459959, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Jump
-      objectReference: {fileID: 0}
-    - target: {fileID: 1446842205348459959, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_ActionEvents.Array.data[15].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Crouch
-      objectReference: {fileID: 0}
-    - target: {fileID: 3201885338567684012, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_Volume
-      value: 0.072
-      objectReference: {fileID: 0}
-    - target: {fileID: 3201885338567684012, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: 1350867429738393377, guid: dd5479c7b0901ca4f98f51baa20cd57b, type: 2}
-    - target: {fileID: 3773454529125211718, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: anim
-      value: 
-      objectReference: {fileID: 530256297}
-    - target: {fileID: 3773454529125211718, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: runSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773454529125211718, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: airControl
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773454529125211718, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: jumpHeight
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773454529125211718, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: crouchSpeed
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773454529125211718, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: normalSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773454529125211718, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: airResistence
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773454529125211718, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: groundResistence
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773454529125211718, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: groundStoppingResistence
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 5971447650217584030, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 32a5980cf71084f3ab83b1bd8a298a5a, type: 2}
-    - target: {fileID: 5971447650226637438, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.875
-      objectReference: {fileID: 0}
     - target: {fileID: 6638423212595656146, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
       propertyPath: m_Name
       value: Third Person Prefab
       objectReference: {fileID: 0}
-    - target: {fileID: 8046644874166601963, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: m_Volume
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8046644874166601963, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: 1350867429738393377, guid: dd5479c7b0901ca4f98f51baa20cd57b, type: 2}
     - target: {fileID: 8200752996770454643, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
       propertyPath: m_RootOrder
       value: 0

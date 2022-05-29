@@ -92,8 +92,8 @@ AudioMixerEffectController:
   - m_ParameterName: Resonance
     m_GUID: a4615e431c7461841bf47c03ac237f69
   m_SendTarget: {fileID: 0}
-  m_EnableWetMix: 0
-  m_Bypass: 1
+  m_EnableWetMix: 1
+  m_Bypass: 0
 --- !u!244 &-628383145733477399
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -142,6 +142,8 @@ AudioMixerController:
     name: MusicVol
   - guid: ee81170641d41274bb28a88cec2a5f5e
     name: MyExposedParam
+  - guid: 8c2a8441a8fb44843aa87198436da38c
+    name: LowPass
   m_AudioMixerGroupViews:
   - guids:
     - 31fb2a68ddc024b418ace36d3efd877a
@@ -198,8 +200,10 @@ AudioMixerSnapshotController:
   m_SnapshotID: 51f62170837d72d47b27046a5fd153b3
   m_FloatValues:
     56f0604044fee2447ac6132e04e969fd: -9.34
+    8c2a8441a8fb44843aa87198436da38c: -80
     a14369616040c6b4fbfa0f2a06b19bb1: 10
     2d100d613a2b2a04caf993d6c5e1df1c: -25
+    0bed4ee39f4b8a641a58e5d1223890f8: 7.9871106
     211c5925eb42f48468877cc00fbc1bb1: 67.1
     dc45c2350a6ad494b8a7768a9b7914e8: 49
     ee81170641d41274bb28a88cec2a5f5e: -19.255655

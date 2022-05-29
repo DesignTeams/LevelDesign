@@ -154,7 +154,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3773454529125211718}
         m_TargetAssemblyTypeName: ThirdPersonMovement, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3773454529125211718}
         m_TargetAssemblyTypeName: ThirdPersonMovement, Assembly-CSharp
         m_MethodName: Jump
         m_Mode: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
     m_ActionName: Player/Sprint[/Keyboard/leftShift]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3773454529125211718}
         m_TargetAssemblyTypeName: ThirdPersonMovement, Assembly-CSharp
         m_MethodName: Crouch
         m_Mode: 0
@@ -269,7 +269,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1564838723547072670}
         m_TargetAssemblyTypeName: PlayerInteractionManager, Assembly-CSharp
         m_MethodName: TryPickup
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -357,7 +357,7 @@ MonoBehaviour:
     m_Bits: 1
   moveEffect: {fileID: 8449598258587626569}
   jumpEffect: {fileID: 2830328860475892524}
-  anim: {fileID: 0}
+  anim: {fileID: 5971447650217584030}
   SFX: {fileID: 8046644874166601963}
   collectedSFX: {fileID: 8300000, guid: 2ac119952ba2cf0428146be00121f334, type: 3}
   dashSFX:
@@ -380,19 +380,19 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 13b76072a98c1de46bf72ccf1bc9f72f, type: 3}
   deadUI: {fileID: 0}
   turnSmoothSpeed: 0.1
-  normalSpeed: 6
-  crouchSpeed: 3
-  runSpeed: 8
+  normalSpeed: 1
+  crouchSpeed: 0.2
+  runSpeed: 1
   groundResistence: 8
-  groundStoppingResistence: 8
+  groundStoppingResistence: 12
   gravityMultiplier: 3
-  jumpHeight: 3
+  jumpHeight: 9
   doubleJump: 1
   groundDistance: 0.4
   platformDistance: 0.8
   jumpTime: 0.4
-  airControl: 5
-  airResistence: 8
+  airControl: 0.1
+  airResistence: 1
   hangTime: 0.1
   jumpBuffer: 0.1
   dashSpeed: 3
@@ -439,12 +439,12 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446842205348459963}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 222e94f63cfe9f04496d1fd2c6329d85, type: 3}
+  OutputAudioMixerGroup: {fileID: -7041053850001998898, guid: dd5479c7b0901ca4f98f51baa20cd57b, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 2b6aeceb66e7926419d3635f63d6da52, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.082
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -537,10 +537,10 @@ AudioSource:
   m_GameObject: {fileID: 1446842205348459963}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 1350867429738393377, guid: dd5479c7b0901ca4f98f51baa20cd57b, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.072
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -646,10 +646,10 @@ AudioSource:
   m_GameObject: {fileID: 1446842205348459963}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 9327d1d8bcd0980499b55f20018d6cb7, type: 2}
+  OutputAudioMixerGroup: {fileID: 1350867429738393377, guid: dd5479c7b0901ca4f98f51baa20cd57b, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5647,10 +5647,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.6
   m_Height: 1.96
   m_Direction: 1
-  m_Center: {x: 0, y: 0.48, z: 0}
+  m_Center: {x: 0, y: -0.43, z: 0}
 --- !u!1 &6638423212595656146
 GameObject:
   m_ObjectHideFlags: 0
@@ -5674,7 +5674,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6638423212595656146}
-  m_LocalRotation: {x: -0, y: -0.48355037, z: -0, w: -0.87531656}
+  m_LocalRotation: {x: -0, y: -0.48354995, z: 0, w: -0.87531674}
   m_LocalPosition: {x: 157.18, y: 0.978, z: 223.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10531,7 +10531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ec32e2ec31094d7c941fc497b5104d9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.875
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ec32e2ec31094d7c941fc497b5104d9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10565,8 +10565,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 1ec32e2ec31094d7c941fc497b5104d9, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 32a5980cf71084f3ab83b1bd8a298a5a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ec32e2ec31094d7c941fc497b5104d9, type: 3}
+--- !u!95 &5971447650217584030 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 1ec32e2ec31094d7c941fc497b5104d9, type: 3}
+  m_PrefabInstance: {fileID: 5971447650227032318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5971447650226637438 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1ec32e2ec31094d7c941fc497b5104d9, type: 3}

@@ -156,6 +156,7 @@ public class ThirdPersonMovement : MonoBehaviour
             Gravity();
             BasicMovement();
             MouseRot();
+
         }
         
     }
@@ -193,7 +194,7 @@ public class ThirdPersonMovement : MonoBehaviour
         Vector3 dir = direction;
 
         //walk & run Animation
-        anim.SetFloat("Speed", direction.magnitude);
+        anim.SetFloat("Speed", direction.magnitude/2f);
         
         //Keep some velocity
         if (isGrounded)
@@ -428,6 +429,19 @@ public class ThirdPersonMovement : MonoBehaviour
     public void Sprint(InputAction.CallbackContext context)
     {
         
+    }
+
+    public void Dance(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+
+            anim.SetBool("Dancing", true);
+        }
+        if (context.canceled)
+        {
+            anim.SetBool("Dancing", false);
+        }
     }
 
     public void Crouch(InputAction.CallbackContext context)
