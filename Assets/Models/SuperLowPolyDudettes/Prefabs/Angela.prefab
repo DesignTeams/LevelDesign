@@ -42,6 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400002}
   - component: {fileID: 13700000}
+  - component: {fileID: 72769861156749686}
   m_Layer: 0
   m_Name: HumanLow
   m_TagString: Untagged
@@ -137,6 +138,20 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00022090733, y: 0.00047858316, z: 0.0019093156}
     m_Extent: {x: 0.0020903628, y: 0.0030985202, z: 0.010287688}
   m_DirtyAABB: 0
+--- !u!64 &72769861156749686
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: fe84b16c887a147d4ae315824693b735, type: 3}
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400026}
   - component: {fileID: 9500000}
+  - component: {fileID: 7828467635614142259}
   m_Layer: 0
   m_Name: Angela
   m_TagString: Untagged
@@ -539,6 +555,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!64 &7828467635614142259
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: fe84b16c887a147d4ae315824693b735, type: 3}
 --- !u!1 &100028
 GameObject:
   m_ObjectHideFlags: 0
