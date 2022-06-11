@@ -128,7 +128,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
         PlayerPrefs.SetString("InteractKey", "E");
 
-        
+        playerAngle = transform.GetChild(0).rotation.eulerAngles.y;
     }
 
     void Die()

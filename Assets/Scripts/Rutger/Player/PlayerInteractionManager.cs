@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerInteractionManager : MonoBehaviour
 {
     public List<Item> items = new List<Item>();
+    public TMPro.TextMeshProUGUI interactionText;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +16,14 @@ public class PlayerInteractionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(items.Count > 0)
+        {
+            interactionText.SetText("Press E to pickup "+items[0].itemName);
+        }
+        else
+        {
+            interactionText.SetText("");
+        }
     }
 
     public void TryPickup(InputAction.CallbackContext context)
