@@ -428,7 +428,14 @@ public class ThirdPersonMovement : MonoBehaviour
 
     public void Sprint(InputAction.CallbackContext context)
     {
-        
+        if (context.started)
+        {
+            movePenalty = 1.5f;
+        }
+        if (context.canceled)
+        {
+            movePenalty = 1f;
+        }
     }
 
     public void Dance(InputAction.CallbackContext context)

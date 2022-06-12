@@ -233,7 +233,7 @@ MonoBehaviour:
     m_ActionName: Player/Jump[/Keyboard/space]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3773454529125211718}
         m_TargetAssemblyTypeName: ThirdPersonMovement, Assembly-CSharp
         m_MethodName: Sprint
         m_Mode: 0
@@ -327,6 +327,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 42ac3efd-c3ee-4788-8df8-de5b0657598f
     m_ActionName: Player/Menu[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1b453630-867b-4bb3-8220-2b18af8f552c
+    m_ActionName: Player/Dance[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
@@ -5636,6 +5640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
+  interactionText: {fileID: 0}
 --- !u!136 &52421513257315283
 CapsuleCollider:
   m_ObjectHideFlags: 0
