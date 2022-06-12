@@ -16,14 +16,18 @@ public class PlayerInteractionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(items.Count > 0)
+        if(interactionText != null)
         {
-            interactionText.SetText("Press E to pickup "+items[0].itemName);
+            if (items.Count > 0)
+            {
+                interactionText.SetText("Press E to pickup " + items[0].itemName);
+            }
+            else
+            {
+                interactionText.SetText("");
+            }
         }
-        else
-        {
-            interactionText.SetText("");
-        }
+        
     }
 
     public void TryPickup(InputAction.CallbackContext context)

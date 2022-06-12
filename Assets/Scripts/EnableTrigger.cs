@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnableTrigger : MonoBehaviour
 {
     public List<GameObject> objsToEnable, objsToDisable;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -31,4 +32,6 @@ public class EnableTrigger : MonoBehaviour
             }
         }
     }
+
+    
 }
