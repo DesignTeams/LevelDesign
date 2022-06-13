@@ -29,13 +29,7 @@ public class SwitchPerson : MonoBehaviour
             script.Slay();
         }
 
-        Debug.Log(other.tag);
-           
-            
-            
-
-            //animation
-            //the end
+        
 
         
     }

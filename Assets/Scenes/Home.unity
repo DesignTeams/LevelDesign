@@ -4069,6 +4069,17 @@ Transform:
   m_Father: {fileID: 1093299349}
   m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 211.952, z: 0}
+--- !u!114 &504805162 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 586251856805149526, guid: 453e3d1e0d2e55147b259414297e6366, type: 3}
+  m_PrefabInstance: {fileID: 1678218483}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &511612632
 GameObject:
   m_ObjectHideFlags: 0
@@ -8487,6 +8498,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 956422249445305800, guid: 6fc1a8e46234aca46bba6798ea132445, type: 3}
   m_PrefabInstance: {fileID: 1194127356}
   m_PrefabAsset: {fileID: 0}
+--- !u!81 &1424112654
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424112649}
+  m_Enabled: 1
 --- !u!1 &1429272311
 GameObject:
   m_ObjectHideFlags: 0
@@ -10275,6 +10294,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3594415674173659242, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594415674173659242, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 1350867429738393377, guid: dd5479c7b0901ca4f98f51baa20cd57b, type: 2}
+    - target: {fileID: 3594415674173659242, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6638423212595656146, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
       propertyPath: m_Name
       value: Third Person Prefab
@@ -11376,6 +11407,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1360081736477051225, guid: edd72a133ac6bbd44907d8db7f6facfa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360081737188696663, guid: edd72a133ac6bbd44907d8db7f6facfa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360081737269775929, guid: edd72a133ac6bbd44907d8db7f6facfa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1360081737307193947, guid: edd72a133ac6bbd44907d8db7f6facfa, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -12882,6 +12925,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Charlie: {fileID: 1921772605}
   AntonioCam: {fileID: 1649366538}
+  image: {fileID: 504805162}
+  color: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &2139891527
 GameObject:
   m_ObjectHideFlags: 0

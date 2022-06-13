@@ -9,7 +9,7 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Time.timeScale = 0f;
     }
 
     // Update is called once per frame
@@ -20,7 +20,8 @@ public class MenuManager : MonoBehaviour
 
     public void LoadLevel()
     {
-        SceneManager.LoadScene(sceneName);
+        Time.timeScale = 1f;
+        gameObject.SetActive(false);
     }
 
     public void QuitGame()
