@@ -22,10 +22,7 @@ public class PlayerInteractionManager : MonoBehaviour
             {
                 interactionText.SetText("Press E to pickup " + items[0].itemName);
             }
-            else
-            {
-                interactionText.SetText("");
-            }
+            
         }
         
     }
