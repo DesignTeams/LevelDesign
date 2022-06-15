@@ -176,7 +176,7 @@ public class ThirdPersonMovement : MonoBehaviour
         //Vector2 AnimDir = Vector2.Angle(dir, mousePos);
         /*Vector2 dir2 = new Vector2(direction.x, direction.z).Rotate(playerAngle-45f);
         if (!frozen)
-        {
+        { 
             anim.SetFloat("xSpeed", dir2.x * direction.magnitude);
             anim.SetFloat("ySpeed", dir2.y * direction.magnitude);
         }
@@ -194,8 +194,11 @@ public class ThirdPersonMovement : MonoBehaviour
         Vector3 dir = direction;
 
         //walk & run Animation
-        anim.SetFloat("Speed", direction.magnitude/2f);
-        
+        if(movePenalty < 1.1f)
+            anim.SetFloat("Speed", direction.magnitude/2f);
+        else
+            anim.SetFloat("Speed", direction.magnitude);
+
         //Keep some velocity
         if (isGrounded)
             if(dir.magnitude > 0.1f) 
