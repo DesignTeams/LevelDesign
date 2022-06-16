@@ -24,19 +24,22 @@ public class Bouncers : MonoBehaviour
         {
             foreach (GameObject human in humans)
             {
-                Vector3 point = player.position;
-                point.y = 0;
-                Transform NPCS = human.GetComponent<Transform>();
-                NPCS.LookAt(Vector3.Lerp(NPCS.position, player.position, 2));
+                //Transform npcs = human.transform;
+                
+
+                Vector3 point = new Vector3(player.position.x, human.transform.position.y, player.position.z);
+                human.transform.LookAt(point);
+
+
 
                 Animator anim = human.GetComponent<Animator>();
                 anim.SetTrigger("Look");
-               
-                
-                
+
+
                 
 
-                    
+
+
             }
         }
         

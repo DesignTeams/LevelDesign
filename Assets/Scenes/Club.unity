@@ -1690,6 +1690,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 42da40569412bf6458481d3b103563de, type: 3}
   m_PrefabInstance: {fileID: 120308513}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &134375293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 956422248497752277, guid: 6fc1a8e46234aca46bba6798ea132445, type: 3}
+  m_PrefabInstance: {fileID: 655184769}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &137882938
 GameObject:
   m_ObjectHideFlags: 0
@@ -9064,7 +9069,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34282
+  m_Name: pb_Mesh38058
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20520,7 +20525,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34902
+  m_Name: pb_Mesh38672
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25432,7 +25437,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh35236
+  m_Name: pb_Mesh39004
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -35094,7 +35099,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh35652
+  m_Name: pb_Mesh39420
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37402,7 +37407,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh35750
+  m_Name: pb_Mesh39518
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -39410,7 +39415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8200752996770454643, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.491212
+      value: 10.51
       objectReference: {fileID: 0}
     - target: {fileID: 8200752996770454643, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
       propertyPath: m_LocalPosition.y
@@ -39418,7 +39423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8200752996770454643, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.67
+      value: 6.55
       objectReference: {fileID: 0}
     - target: {fileID: 8200752996770454643, guid: 7cb8b0507191ce04b8d9aa74fa00c750, type: 3}
       propertyPath: m_LocalRotation.w
@@ -43217,7 +43222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a4b1232d1bd0124088a4a9eb5e33a29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultCam: {fileID: 1766767180}
+  defaultCam: {fileID: 134375293}
   currentCam: {fileID: 0}
 --- !u!4 &1567776988
 Transform:
