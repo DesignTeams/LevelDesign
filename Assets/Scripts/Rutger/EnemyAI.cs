@@ -12,6 +12,7 @@ public class EnemyAI : MonoBehaviour
     public float maxSpeed = 4;
     public AnimationCurve speedCurve;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,5 +42,7 @@ public class EnemyAI : MonoBehaviour
             other.GetComponent<ThirdPersonMovement>().Kill();
             deadUI.SetActive(true);
         }
+
+        
     }
 }

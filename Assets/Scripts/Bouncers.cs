@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Bouncers : MonoBehaviour
 {
+    public GameObject RedDoor;
     public GameObject[] humans;
     public Transform player;
     public Collider col;
@@ -30,7 +31,7 @@ public class Bouncers : MonoBehaviour
                 Vector3 point = new Vector3(player.position.x, human.transform.position.y, player.position.z);
                 human.transform.LookAt(point);
 
-
+                RedDoor.SetActive(false);
 
                 Animator anim = human.GetComponent<Animator>();
                 anim.SetTrigger("Look");

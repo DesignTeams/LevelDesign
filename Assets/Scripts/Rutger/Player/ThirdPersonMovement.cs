@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using Random = System.Random;
 
 public static class Vector2Extension
@@ -142,8 +143,13 @@ public class ThirdPersonMovement : MonoBehaviour
     public void Freeze()
     {
         frozen = true;
+        Invoke("ResetScene", 3);
     }
 
+    public void ResetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
     public void UnFreeze()
     {
         frozen = false;
@@ -399,8 +405,10 @@ public class ThirdPersonMovement : MonoBehaviour
     {
         anim.SetBool("Dead", true);
         Freeze();
+
     }
 
+    
     public void Move(InputAction.CallbackContext context)
     {
         if (playerInput.currentControlScheme == "Keyboard&Mouse")
