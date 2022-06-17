@@ -16416,11 +16416,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7635199735169203734, guid: edd72a133ac6bbd44907d8db7f6facfa, type: 3}
       propertyPath: maxSpeed
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7635199735169203734, guid: edd72a133ac6bbd44907d8db7f6facfa, type: 3}
       propertyPath: minSpeed
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7635199735169203734, guid: edd72a133ac6bbd44907d8db7f6facfa, type: 3}
       propertyPath: m_Enabled

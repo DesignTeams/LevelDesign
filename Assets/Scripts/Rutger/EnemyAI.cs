@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -40,6 +41,7 @@ public class EnemyAI : MonoBehaviour
         if(other.GetComponent<ThirdPersonMovement>() != null)
         {
             other.GetComponent<ThirdPersonMovement>().Kill();
+            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
             deadUI.SetActive(true);
         }
 
